@@ -1,9 +1,42 @@
-html, body {
-    padding: 20px;
-    background-color: grey;
+html {
+    font-family: 'Fira Mono', monospace;
+    padding: 50px;
+    height: 100vh;
 }
+body {
+     background: rgb(73, 29, 130);
+     background: linear-gradient(110deg, rgba(73, 29, 130, 1) 0%, rgba(99, 24, 70, 1) 22%, rgba(63, 19, 68, 1) 77%, rgba(14, 15, 48, 1) 100%);
+     background-repeat: no-repeat;
+ }
+
+ .customDiv {
+    background: #ffffff36;
+    padding: 40px;
+    text-align: 'center';
+    border-radius: 12px;
+    border: 1px solid #c4c4c4;
+ }
 
 h1 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#1dff83, #00ff9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#fbf0ff, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+h3 {
     font-size: 20px;
+    color: white;
+}
+
+code {
+    font-size: 18px;
     color: white;
 }

@@ -85,6 +85,22 @@ npm run start:dev
 http://localhost:3000/api/seed
 ```
 
+## Configuración de la imagen de docker
+
+documentación detallada
+
+- Website - [https://gist.github.com/Klerith/e7861738c93712840ab3a38674843490](https://gist.github.com/Klerith/e7861738c93712840ab3a38674843490)
+
+# Production build
+
+1. Crear el archivo `.env.prod`
+2. Llenar las variables de entorno de prod
+3. Crear la nueva imagen
+
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Stack usado
 
 - MongoDB
